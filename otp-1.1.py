@@ -80,12 +80,17 @@ def genkey(keylength):
         
 '''
 To Do: 
-- Make decryption function record position of white space before removing it
-- Make decryption function replace white space after decryption
 - Fix decryption function to work with all alphanumeric characters
+
+- Add function that saves location of capitalization, punctuation, and white space
+- Add function that restores saved capitalization, punctuation, and white space
+- Add formatting preservation to encryption function
+- Add formatting preservation to decryption function
 
 - Add ability to save keys to file (make it a prompt after key generation to avoid dealing with multiple argument shenanigans)
 - Add ability to load keys from file as second and third arguments (-k <keyfile>)
+
+
 
 Optional: 
 - Add ability to load and save ciphertext from file
